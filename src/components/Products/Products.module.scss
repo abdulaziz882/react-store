@@ -1,0 +1,37 @@
+.main{
+    display: flex;  
+    flex-direction: column;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+
+    &__title{
+        margin-bottom: 5px;
+    }
+    &__text{ margin-bottom: 5px;}
+    &__price{
+    font-size: 30px;
+
+    }
+}
+
+
+.products__filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

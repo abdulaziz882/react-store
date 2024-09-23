@@ -1,0 +1,16 @@
+.navbar{
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    &__list{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 40px;
+       padding: 15px 0 15px 0 ;
+       
+    }
+}
+.link{
+    font-size: 30px;
+    color: black;
+}
